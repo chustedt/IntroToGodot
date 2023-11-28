@@ -1,0 +1,17 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1701140245
+Coin.gd::GDScript::-1::1701117185::0::1::::<>Area2D<>::
+Coin.tscn::PackedScene::3209063972642913339::1701117365::0::1::::<><>::res://Coin.gd<>uid://d3bi3pvfaaows::::res://Sprites/Coin.png
+CoinCollectorLevel.tscn::PackedScene::1820529803772482962::1701118403::0::1::::<><>::res://Player.gd<>uid://bhf8sv3a3fxog::::res://Sprites/Player.png<>uid://blyq2x5c6vpbf::::res://Coin.tscn
+icon.svg::CompressedTexture2D::5817248599001385065::1701100646::1701100658::1::::<><>::
+IntroToScripting.gd::GDScript::-1::1701113944::0::1::::<>Node2D<>::
+Mover.gd::GDScript::-1::1701115219::0::1::::<>Sprite2D<>::
+Player.gd::GDScript::-1::1701117229::0::1::::<>CharacterBody2D<>::
+Player.tscn::PackedScene::2077855697522169060::1701113831::0::1::::<><>::uid://bhf8sv3a3fxog::::res://Sprites/Player.png
+Scripts.tscn::PackedScene::8647341381444710585::1701116584::0::1::::<><>::res://IntroToScripting.gd<>uid://bhf8sv3a3fxog::::res://Sprites/Player.png<>res://Mover.gd
+TestScene.tscn::PackedScene::491848440223581447::1701113831::0::1::::<><>::uid://4ur8kuqegesa::::res://Player.tscn<>uid://d3bi3pvfaaows::::res://Sprites/Coin.png
+::res://Materials/::1701112619
+TestMaterial.tres::StandardMaterial3D::309963455859196641::1701112619::0::1::::<><>::
+::res://Sprites/::1701102550
+Coin.png::CompressedTexture2D::9127150609388077462::1701102550::1701102550::1::::<><>::
+Player.png::CompressedTexture2D::2890101429263725734::1701102550::1701102550::1::::<><>::

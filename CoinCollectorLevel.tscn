@@ -1,0 +1,41 @@
+[gd_scene load_steps=5 format=3 uid="uid://0644ia62yxsc"]
+
+[ext_resource type="Script" path="res://Player.gd" id="1_h8x34"]
+[ext_resource type="Texture2D" uid="uid://bhf8sv3a3fxog" path="res://Sprites/Player.png" id="2_wrsa2"]
+[ext_resource type="PackedScene" uid="uid://blyq2x5c6vpbf" path="res://Coin.tscn" id="3_pvawf"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_p6amv"]
+size = Vector2(53, 66)
+
+[node name="CoinCollectorLevel" type="Node2D"]
+
+[node name="Player" type="CharacterBody2D" parent="."]
+script = ExtResource("1_h8x34")
+
+[node name="Sprite" type="Sprite2D" parent="Player"]
+texture = ExtResource("2_wrsa2")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
+position = Vector2(-0.5, 15)
+shape = SubResource("RectangleShape2D_p6amv")
+
+[node name="Coin" parent="." instance=ExtResource("3_pvawf")]
+position = Vector2(-162, 49)
+
+[node name="Coin2" parent="." instance=ExtResource("3_pvawf")]
+position = Vector2(124, 2)
+
+[node name="Coin3" parent="." instance=ExtResource("3_pvawf")]
+position = Vector2(-22, -55)
+
+[node name="Coin4" parent="." instance=ExtResource("3_pvawf")]
+position = Vector2(-184, -13)
+
+[node name="Coin5" parent="." instance=ExtResource("3_pvawf")]
+position = Vector2(-106, -17)
+
+[node name="Coin6" parent="." instance=ExtResource("3_pvawf")]
+position = Vector2(-135, -80)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(1.5, 1.5)
